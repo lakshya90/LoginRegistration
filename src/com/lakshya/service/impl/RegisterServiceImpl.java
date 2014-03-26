@@ -8,8 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.controller.repository.impl.UserRepository;
 import com.lakshya.model.*;
+import com.lakshya.repository.impl.UserRepository;
 import com.lakshya.service.RegisterService;
 
 /**
